@@ -1,0 +1,14 @@
+# Local terraform state & directories
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+.terraform.lock.hcl
+
+# Secret variable files
+*.tfvars
+!terraform.tfvars.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
